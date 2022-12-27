@@ -1,13 +1,25 @@
 import './App.css';
+import { ChangeEvent, useState } from 'react';
 
 function App() {
+  const [file, setFile] = useState();
+
+  const handleUpload = () => {
+    if (!file) {
+      return;
+    }
+
+  }
+
   return (
     <div className="Body">
       <div className="Sidebar">
-        <p>Hello World!</p>
+        <b>Input your calendars here!</b>
+        <input type="file" accept=".ics" />
+        <button onClick={handleUpload}>Upload</button>
       </div>
       <div className="Calendar">
-        <p>Calendar!</p>
+        <b>Calendar!</b>
       </div>
     </div>
   );
