@@ -1,13 +1,13 @@
 .Body {
   width: 100%;
-  height: 900px;
+  height: 1000px;
   text-align: center;
   float: left;
 }
 
 .Sidebar {
   width: 20%;
-  height: 900px;
+  height: 1000px;
   text-align: center;
   float: left;
   background-color: tan;
@@ -15,7 +15,7 @@
 
 .Calendar {
   width: 80%;
-  height: 900px;
+  height: 1000px;
   text-align: center;
   float: left;
   background: lightgoldenrodyellow;
